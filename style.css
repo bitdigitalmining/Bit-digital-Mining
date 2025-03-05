@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #111, #222);
+}
+
+.hero .btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+.service {
+    border: 1px solid #ffcc00;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #ffcc00;
+}
+
+.faq, .contact {
+    background-color: #111;
+    padding: 30px;
+}
